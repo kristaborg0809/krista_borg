@@ -1,0 +1,79 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(248, 244, 181)
+}
+ 
+.navbar li { 
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(32, 50, 60);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color:rgb(245, 226, 106)
+}
+
+.mycontainer{
+    display: flex;   
+}
+
+.mycontainer > div{
+    width: 30%;
+}
+
+.city{
+    background-color: beige;
+    color: rgb(100, 37, 158);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.main{
+    text-align: center;
+}
+
+.button{
+     background-color: rgb(4, 192, 255);
+    color:rgb(2, 20, 20);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: blueviolet;
+     color:rgb(2, 20, 20);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#myHeader{
+    background-color: black;
+    color:azure;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer{
+     background-color: black;
+    color:azure;
+    padding: 10px;
+    text-align: center;
+}
+
+
